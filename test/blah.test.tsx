@@ -1,11 +1,12 @@
 import React from 'react';
-import * as ReactDOM from 'react-dom';
-import { Default as Thing } from '../stories/Thing.stories';
+import { render, screen } from '@testing-library/react';
+import { Thing } from '../src';
 
 describe('Thing', () => {
   it('renders without crashing', () => {
-    const div = document.createElement('div');
-    ReactDOM.render(<Thing />, div);
-    ReactDOM.unmountComponentAtNode(div);
+    render(<Thing />);
+    expect(
+      screen.findByText('the snozzberries taste like snozzberries')
+    ).toBeTruthy();
   });
 });
