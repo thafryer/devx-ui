@@ -8,7 +8,7 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "devx-ui": "^0.1.0",
+    "devx-ui": "0.1.2",
     "react-app-polyfill": "^1.0.0"
   },
   "alias": {
