@@ -25,7 +25,7 @@ Then run either Storybook or the example playground:
 Run inside another terminal:
 
 ```bash
-yarn storybook
+npm run storybook
 ```
 
 This loads the stories from `./stories`.
