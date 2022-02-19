@@ -21,7 +21,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "build-tailwind": "NODE_ENV=production npx tailwindcss -o ./dist/tailwind.css --minify",
-    "chromatic": "chromatic --exit-zero-on-changes"
+    "chromatic": "chromatic --skip 'dependabot/**' --exit-zero-on-changes"
   },
   "peerDependencies": {
     "react": ">=16"
