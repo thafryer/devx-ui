@@ -1,3 +1,15 @@
+# v0.2.2 (Sun Mar 27 2022)
+
+#### 🐛 Bug Fix
+
+- Add Storybook Interactions [#2](https://github.com/thafryer/devx-ui/pull/2) ([@thafryer](https://github.com/thafryer))
+
+#### Authors: 1
+
+- Jarel Fryer ([@thafryer](https://github.com/thafryer))
+
+---
+
 # v0.2.1 (Sat Feb 19 2022)
 
 #### 🐛 Bug Fix
